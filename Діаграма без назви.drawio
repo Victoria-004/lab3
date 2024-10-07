@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -19,29 +19,40 @@
         <mxCell id="apftaV8s9uSCm-BUlQIc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-3" target="apftaV8s9uSCm-BUlQIc-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-3" value="for i in range(1, len(letters))" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="apftaV8s9uSCm-BUlQIc-3" value="for i in range(1, len(letters))&lt;div&gt;проходження по послідов.&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="260" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-5" target="apftaV8s9uSCm-BUlQIc-7">
+        <mxCell id="apftaV8s9uSCm-BUlQIc-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-5" target="apftaV8s9uSCm-BUlQIc-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-5" value="if ord(letters[i]) - ord(letters[i - 1])&lt;div&gt;!= 1&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="apftaV8s9uSCm-BUlQIc-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="apftaV8s9uSCm-BUlQIc-14">
+          <mxGeometry x="-0.16" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apftaV8s9uSCm-BUlQIc-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-5" target="apftaV8s9uSCm-BUlQIc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apftaV8s9uSCm-BUlQIc-5" value="if ord(letters[i]) - ord(letters[i - 1])&lt;div&gt;!= 1&lt;/div&gt;&lt;div&gt;перевірка різниці&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="360" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-7" target="apftaV8s9uSCm-BUlQIc-9">
+        <mxCell id="apftaV8s9uSCm-BUlQIc-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-13" target="apftaV8s9uSCm-BUlQIc-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-7" value="return" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="apftaV8s9uSCm-BUlQIc-13" value="return" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-9" target="apftaV8s9uSCm-BUlQIc-11">
+        <mxCell id="apftaV8s9uSCm-BUlQIc-16" value="Кінець" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="380" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="apftaV8s9uSCm-BUlQIc-18" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="398" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apftaV8s9uSCm-BUlQIc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="apftaV8s9uSCm-BUlQIc-19" target="apftaV8s9uSCm-BUlQIc-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-9" value="Вивід пропущеної&lt;div&gt;&amp;nbsp;літери&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="600" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="apftaV8s9uSCm-BUlQIc-11" value="Кінець" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="680" width="120" height="80" as="geometry" />
+        <mxCell id="apftaV8s9uSCm-BUlQIc-19" value="Вивід пропущеної&lt;div&gt;&amp;nbsp;літери&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="480" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
